@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.middle-container {
+  padding: 20px 0px;
+  position: relative;
+  float: left;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 1230px;
+  min-height: 10px;
+}
+.middle-container .card {
+  position: relative;
+  margin-top: 50px;
+  float: left;
+  width: 600px;
+  height: 800px;
+  overflow: hidden;
+}
+.middle-container .card:nth-child(2n) {
+  margin-top: 200px;
+  margin-left: 25px;
+}
+.middle-container .card img {
+  position: absolute;
+  width: 100%;
+}
